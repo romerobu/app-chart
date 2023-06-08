@@ -9,4 +9,4 @@ appVersion: "1.16.0"
 dependencies:
 - name: app-library
   version: 0.1.0
-  repository: file://../app-library
+  repository: https://romerobu.github.io/app-library #file://../app-library
