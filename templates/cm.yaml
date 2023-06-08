@@ -1,10 +1,9 @@
-# use app-library chart
 {{- include "app-library.configmap" (list . "app-chart.configmap") -}}
 {{- define "app-chart.configmap" -}}
-data:
-  myvalue: "Hello World"
 metadata:
   namespace: {{ $.Values.app.namespace }}
   labels:
     app.kubernetes.io/id: '{{ $.Values.app.uid }}'  
+data:
+  myvalue: "Hello World"
 {{- end -}}

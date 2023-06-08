@@ -1,0 +1,9 @@
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: {{ $.Values.app.namespace }}
+  labels:
+    app.kubernetes.io/id: '{{ $.Values.app.uid }}'  
+  annotations:
+    argocd.argoproj.io/sync-wave: "-5"
