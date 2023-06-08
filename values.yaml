@@ -1,0 +1,6 @@
+app:
+  appname: back-golang-v1
+  namespace: app
+  uid: 5615
+  replicas: 2
+  labels: app-name
