@@ -6,7 +6,7 @@ metadata:
     app: {{ $.Values.app.labels }}
     app.kubernetes.io/id: '{{ $.Values.app.uid }}'
     version: v1
-  name: {{ $.Values.app.appname }}-test
+  name: {{ $.Values.app.appname }}-test-2
   namespace: {{ $.Values.app.namespace }}
 spec:
   replicas: {{ $.Values.app.replicas }}

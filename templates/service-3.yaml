@@ -5,7 +5,7 @@ metadata:
     app: back-golang
     version: v1
     app.kubernetes.io/id: '{{ $.Values.app.uid }}'
-  name: {{ $.Values.app.appname }}-test
+  name: {{ $.Values.app.appname }}-test-2
   namespace: {{ $.Values.app.namespace }}
 spec:
   ports:

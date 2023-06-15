@@ -2,14 +2,14 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: back-golang-test
+  name: back-golang-test-2
   namespace: {{ $.Values.app.namespace }}
   labels:
     app.kubernetes.io/id: '{{ $.Values.app.uid }}'
 spec:
   to:
     kind: Service
-    name: back-golang-v1-test
+    name: back-golang-v1-test-2
   port:
     targetPort: http-8442
   tls:
