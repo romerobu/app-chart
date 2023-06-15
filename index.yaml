@@ -3,27 +3,27 @@ entries:
   app-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-08T17:51:34.116890265+02:00"
+    created: "2023-06-16T00:03:41.061799437+02:00"
     dependencies:
     - name: app-library
       repository: https://romerobu.github.io/app-library
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: 200b5af99b08d644b77f4aff673fd3646801b2c389b50d6cee0525f3696ceba6
+    digest: 85a1474b71af67d8e53fc1c0386e70aff42b00b60cbff0fc985d296822ddb60c
     name: app-chart
     type: application
     urls:
-    - https://romerobu.github.io/app-chart/app-chart-0.1.0.tgz
+    - https://romerobu.github.io/app-chart-test-15/app-chart-0.1.0.tgz
     version: 0.1.0
   app-library:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-08T17:51:34.117087906+02:00"
+    created: "2023-06-16T00:03:41.061958743+02:00"
     description: A Helm chart for Kubernetes
     digest: d741d6080b78de436ff8a51230c52499b123df443135d10cca46b2dfb59c9d31
     name: app-library
     type: library
     urls:
-    - https://romerobu.github.io/app-chart/charts/app-library-0.1.0.tgz
+    - https://romerobu.github.io/app-chart-test-15/charts/app-library-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-08T17:51:34.114964262+02:00"
+generated: "2023-06-16T00:03:41.058585575+02:00"
